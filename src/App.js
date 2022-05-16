@@ -23,11 +23,11 @@ function App() {
             <main className='container mx-auto px-3 pb-12'>
               <Alert />
               <Routes>
-                <Route path='/gihub-finder-plus/' element={<Home />} />
-                <Route path='/gihub-finder-plus/about' element={<About />} />
-                <Route path='/gihub-finder-plus/user/:login' element={<User />} />
-                <Route path='/gihub-finder-plus/notfound' element={<NotFound />} />
-                <Route path='/gihub-finder-plus/*' element={<NotFound />} />
+                <Route path='/github-finder-plus/' element={<Home />} />
+                <Route path='/github-finder-plus/about' element={<About />} />
+                <Route path='/github-finder-plus/user/:login' element={<User />} />
+                <Route path='/github-finder-plus/notfound' element={<NotFound />} />
+                <Route path='/github-finder-plus/*' element={<NotFound />} />
               </Routes>  
             </main>
             <Footer />
