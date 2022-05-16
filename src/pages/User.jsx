@@ -6,7 +6,6 @@ import Spinner from '../components/layout/Spinner';
 import RepoList from '../components/repos/RepoList';
 import {getUserAndRepos} from '../context/github/GithubActions'
 
-
 function User(){
   const {user, loading, repos, dispatch} = useContext(GithubContext);
 
